@@ -29,8 +29,6 @@ app.get('/api/searchApiConcrete', (req, res) => {
     // should be done by async await, and relevant mappers per API
     myApiSearcher.searchHotels({ groupSize, destination, start, end })
       .then(result => {
-        console.log(result.data);
-
         res.send(result.data);
       });
   }
