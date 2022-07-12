@@ -1,0 +1,9 @@
+div.group {
+  display: flex;
+  justify-content: center;
+
+  & * {
+     margin: 0 20px;
+     align-self: center;
+  }
+}
