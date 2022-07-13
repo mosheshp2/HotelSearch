@@ -11,9 +11,15 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { ResultsComponent } from './results/results.component';
+import { ResltCardComponent } from './reslt-card/reslt-card.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchBarComponent,
+    ResultsComponent,
+    ResltCardComponent
   ],
   imports: [
     BrowserModule,
